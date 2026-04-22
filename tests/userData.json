@@ -1,0 +1,16 @@
+{
+    "validUser": {
+      "user": "standard_user",
+      "pass": "secret_sauce"
+    },
+    "loginFailures": [
+      { "user": "locked_out_user", "pass": "secret_sauce", "error": "locked out" },
+      { "user": "wrong_user", "pass": "wrong_pass", "error": "Username and password do not match" },
+      { "user": "", "pass": "", "error": "Username is required" }
+    ],
+    "checkoutData": {
+      "fname": "Swetha",
+      "lname": "Test",
+      "zip": "600001"
+    }
+  }
